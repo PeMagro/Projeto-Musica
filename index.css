@@ -16,10 +16,12 @@ body {
     font-family: 'Reem Kufi';
     width: 100%;
     height: 900px;
-    background-image: url(imagens/fundo_castelos&ruinas2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+}
+
+main {
+    width: 100%;
+    height: 1800px;
+    margin: 0px;
 }
 
 header {
@@ -57,16 +59,24 @@ header nav a:hover {
 
 #principal {
     position: relative;
-    margin-left: 25%;
-    margin-top: 10%;
     background: none;
+    background-image: url(imagens/fundo_castelos&ruinas2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    width: 100%;
+    height: 900px;
+    padding-top: 250px;
 }
 
 #texto_principal {
     position: relative;
-    font-weight: bold;
     margin: 50px;
-    margin-left: 5%;
+    margin-left: 30%;
+}
+
+.texto_principal {
+    font-weight: bold;
     font-size: 40px;
     color: #fff;
 }
@@ -75,7 +85,7 @@ header nav a:hover {
     position: relative;
     font-style: italic;
     margin: 50px;
-    margin-left: 20%;
+    margin-left: 40%;
     font-size: 25px;
     color: #fff;
     opacity: 0.5;
@@ -94,7 +104,7 @@ header nav a:hover {
     color: #fff;
     font-weight: bold;
     margin: 100px;
-    margin-left: 30%;
+    margin-left: 45%;
 }
 
 #vamosla:hover {
@@ -102,4 +112,11 @@ header nav a:hover {
     border: #0f0 solid 1px;
     color: #0f0;
     transition: 1s;
+}
+
+#divisao1 {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #b0b0b0;
 }
